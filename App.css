@@ -1,0 +1,57 @@
+.app-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .token-form {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    background: #14f195;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background: #12d883;
+  }
+  
+  .status-message {
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .status-message:not(:empty) {
+    background: #e0e0e0;
+  }
