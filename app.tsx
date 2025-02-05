@@ -2,8 +2,8 @@ import { useMemo } from 'react';
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 import { WalletModalProvider } from '@solana/wallet-adapter-react-ui';
 import { PhantomWalletAdapter } from '@solana/wallet-adapter-wallets';
-import { CreateTokenForm } from './components/CreateTokenForm';
-import './styles/App.css';
+import { CreateTokenForm } from '.CreateTokenForm';
+import '.App.css';
 
 interface AppProps {
   endpoint: string;
